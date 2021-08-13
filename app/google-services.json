@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "540625484752",
+    "project_id": "jee-kota",
+    "storage_bucket": "jee-kota.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540625484752:android:3120556fe2c4b4993c57d5",
+        "android_client_info": {
+          "package_name": "com.example.jeekota"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540625484752-i0jrqaovhnjc4asep6ah20e77em5kdfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jeekota",
+            "certificate_hash": "66594ee5180fcf7e76eee0e17b021b192cc72db6"
+          }
+        },
+        {
+          "client_id": "540625484752-jnnaupvcvpr4lsep4vr06kvbah0k3uo2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwAnNA6qlYeDJZ3deeGgafqPjDH90tPBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540625484752-jnnaupvcvpr4lsep4vr06kvbah0k3uo2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

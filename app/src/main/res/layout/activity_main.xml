@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_rec"
+    android:orientation="vertical"
+   >
+
+    <com.google.android.material.appbar.AppBarLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.JEEKOTA.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="58dp"
+            app:titleTextAppearance="@style/ToolbarTextStyle"
+
+            app:popupTheme="@style/Theme.JEEKOTA.PopupOverlay" />
+
+
+        <com.google.android.material.tabs.TabLayout
+
+            app:tabTextColor="#D1D1D1"
+            app:tabIndicatorColor="@color/white"
+            app:tabSelectedTextColor="@color/white"
+            android:background="?attr/colorPrimarySurface"
+            app:tabGravity="fill"
+            app:tabTextAppearance="@style/TabLayoutTextStyle"
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+  <!--  <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+
+    <androidx.viewpager2.widget.ViewPager2
+
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

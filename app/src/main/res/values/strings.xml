@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">JEE KOTA</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_admin">Admin</string>
+    <string name="action_chat">chat</string>
+
+
+    <string-array name="subject_array">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>German</item>
+        <item>Russian</item>
+
+    </string-array>
+
+</resources>
