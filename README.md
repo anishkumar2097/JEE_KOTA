@@ -1,5 +1,7 @@
-# JEE_KOTA
-android app,user can avail jee notes
+# JEE_KOTA : Get jee notes of Physics ,chemistry and maths subject
+User can avail physics ,chemistry and maths notes .When user tap the chapter, notes will open and user can read it
+
+
 
 
 
